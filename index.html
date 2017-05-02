@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+ 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="file:///C|/xampp/htdocs/testsimulation/testsimule.css" rel="stylesheet" type="text/css">
+<link href="css/test.css" rel="stylesheet" type="text/css"/>
+
+<script src="respond.min.js"></script>
+
+</head>
+<body>
+	<div class="gridContainer clearfix">
+		<div id="LayoutDiv1">
+        <div id="Holder">
+        	<div id="HeaderContainer">
+          		 <div id="Header">
+                 	<h1>Random Question Papers!!!</h1>
+           		 </div>
+           		<div id="Nav">
+           		</div>
+           	</div>
+           <div id="Content">
+           
+           	<div id="ContentLeft">
+	           <h1>Register</h1>
+	           <form name="register" action="test.jsp" method="GET" id="register" style="margin:5px 0 0 20%">
+	           <p><span>Name</span><input type="text" name="name" id="name" required placeholder="Ex: John Smith"/></p><br />
+	           <p><span>USN</span><input type="text" name="USN" id="USN" required placeholder="Ex: 2BA14IS056" onchange="chkusn();"/></p><br />
+	           <p><span>Semester</span><input type="text" name="Sem" id="Sem" required placeholder="Ex: 6" onchange="chksem();"/></p><br />
+   		       <p><span>Department</span><!--<input type="text" name="dept" id="dept" required="required" placeholder="Ex: ISE"/>-->
+        	   <select name="Department"><option value="AU">AU</option><option value="ISE">ISE</option><option value="CSE">CSE</option>
+            	                         <option value="MECH">MECH</option><option value="CIVIL">CIVIL</option><option value="EEE">EEE</option>
+                	                     <option value="ECE">ECE</option><option value="EI">EI</option>
+                    	                 <option value="BT">BT</option></select></p><br />
+            	<p><span>&nbsp;</span><input type="submit" class="submit" name="submit" id="submit" value="Register"/></p>
+            	
+           		</form>
+          	</div>
+            
+            <div id="ContentRight">
+            	 <h1>Login</h1>
+	           <form name="login" action="login.jsp" method="POST" id="register"  style="margin:5px 0 0 20%">
+	           <p><span>USN</span><input type="text" name="USN" id="USN1" required placeholder="Ex: 2BA14IS056" onchange="chkusn1();"/></p><br />
+	           <p><span>Semester</span><input type="text" name="Sem" id="Sem1" required placeholder="Ex: 6" onchange="chksem1();"/></p><br />
+            	<p><span>&nbsp;</span><input type="submit" class="submit" name="submit" id="submit" value="Login"/></p>
+            	<input type="hidden" name="MM_login" value="login">
+           		</form>
+            </div>
+          </div>
+           <div id="Footer">
+           </div>
+       </div>
+        </div>
+	</div>
+    
+    <script src="js/valid.js"></script>
+        <script src="js/valid1.js"></script>
+
+</body>
+</html>
+

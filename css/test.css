@@ -1,0 +1,154 @@
+/* CSS Document */
+#Holder {
+	padding:0;
+	margin:0;
+	width:auto;
+	height:auto;
+	background-image:url(../images/fNL6qHE.jpg);
+	background-repeat:repeat-y;
+	background-size:cover;
+}
+
+#HeaderContainer {
+	padding:0;
+	margin:0 0 10px 0;
+	height:150px;
+	width:auto;
+	
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index:3;
+	border-radius:30px;
+}
+	
+#Header {
+	margin:0;
+	height:100px;
+	padding:0;
+}
+
+#Header h1 {
+	color:#FFF;
+	padding-left:10%;
+	padding-bottom:0;
+	padding-right:0;
+	padding-top:50px;
+	margin:0;
+	border-bottom:1px solid #999;
+	letter-spacing:0.5em;
+	font:normal 400% Georgia, "Times New Roman", Times, serif;
+}
+
+#Nav {
+	margin:0;
+	height:50px;
+	padding:0;
+}
+
+#Content {
+	width:100%;
+	margin:0;
+	height:auto;
+	padding:0;
+	border-radius:30px;
+	background-repeat:repeat-y;
+	background-size:cover;
+	overflow:hidden;
+	display:block;
+}
+
+#ContentLeft {
+	width:45%;
+	float:left;
+	height:auto;
+}
+#ContentRight {
+	width:45%;
+	float:right;
+	height:auto;
+}
+
+#register {
+	margin:0px;
+	padding-bottom:130px;
+}
+
+#register span {
+	float:left;
+	width:150px;
+	color:#FFF;
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#register input, select, option {
+	padding:5px;
+	width:190px;
+	border-radius:8px;
+	background-color:#fff;
+	font-size:16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border:1px solid #96c7c4;
+}
+
+#register select {
+	height: 32px;
+	width: 200px;
+}
+
+#register input[type=submit] {
+	width:120px;
+}
+#register label {
+    margin: 0;
+    padding: 0;
+}
+#register input[type=radio] {
+    margin: 0;
+    padding: 0;
+}
+#Content h1 {
+	margin:0;
+	color:#ff3e96;
+	padding:35px 0 50px 0;
+	font:normal 250% Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+}
+
+#Questions {
+	margin:0;
+	padding:0 0 0 25%;
+}
+
+#Content p {
+	padding:0;
+	margin:0 0 10px 0;
+	color:#fff;
+	font:normal 150% Georgia, "Times New Roman", Times, serif;
+}
+
+#Content ul {
+	padding:0 0 0 5%;
+	margin:0;
+	color:#fff;
+	font:normal 150% Georgia, "Times New Roman", Times, serif;
+}
+
+#Content ul li {
+	margin:0 0 10px 0;
+	list-style-type:none;
+}
+
+#Footer {
+	margin:10px 0 0 0;
+	height:100px;
+	padding:0;
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index:3;
+	border-radius:30px;
+}
+
+
+
+
